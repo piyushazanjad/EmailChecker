@@ -12,10 +12,8 @@ var numberOfUniqueEmails = function(emails) {
     	var email_string = emails[i].split(".").join("");
 	// replace anything in between '+ and @' to @
         email_string = email_string.replace(/\+.*\@/,'@');
-	// create a final string by concatenating email_string and domain
-	var final_string = email_string+"@"+domain;
 	// add the final_string to the set
-	set.add(final_string);
+	set.add(email_string);
 	    
     }
     // Return set size. Since set stores unique values, we can count no of unique email addresses using size.
