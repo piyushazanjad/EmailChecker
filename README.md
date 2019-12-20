@@ -15,6 +15,7 @@ I have added two approaches:
     a. splitting the email string by '@', separating local part and domain.
     b. Remove "." from the email_string.
     c. Repalace anything between + and @.
-    e. Add the final string from step c into a set
+    d. Get the email string until '@' character and concatenate with domain.
+    e. Add the final string from step d into a set
     f. Return set size ( set size will return the count of unique email addresses) 
     
