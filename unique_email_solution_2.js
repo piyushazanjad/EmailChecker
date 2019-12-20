@@ -1,5 +1,5 @@
 var numberOfUniqueEmails = function(emails) {
-    // define a set
+    
     // define a set
     var set = new Set();
     
